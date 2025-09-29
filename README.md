@@ -1,5 +1,5 @@
 # Ex.06 Book Front Cover Page Design
-## Date:
+## Date:29/09/2025
 
 ## AIM:
 To design a book front cover page using HTML and CSS.
@@ -31,9 +31,90 @@ Insert the images in their appropriate places.
 Publish the website in the LocalHost.
 
 ## PROGRAM:
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Book Cover</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #25cb15;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      font-family: 'Georgia', serif;
+    }
 
+    .book-cover {
+      width: 400px;
+      height: 600px;
+      background: rgb(31, 54, 206);
+      border: 2px solid #333;
+      padding: 40px 30px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .title {
+      font-size: 28px;
+      font-weight: bold;
+      color: #2e2e2e;
+      text-align: center;
+      line-height: 1.3;
+    }
+
+    .subtitle {
+      font-size: 16px;
+      margin-top: 10px;
+      text-align: center;
+      font-style: italic;
+    }
+
+    .image {
+      flex: 1;
+      background: url('https://upload.wikimedia.org/wikipedia/commons/6/65/Simple_flowers_black_line_art.png') center/contain no-repeat;
+      margin: 30px 0;
+    }
+
+    .author {
+      font-size: 18px;
+      text-align: center;
+      color: #bc4834;
+      margin-top: 20px;
+    }
+
+    .line {
+      height: 2px;
+      background: #b90bc2;
+      width: 50px;
+      margin: 10px auto;
+    }
+  </style>
+</head>
+<body>
+  <div class="book-cover">
+    <div>
+      <div class="title">The Art of simplicity</div>
+      <div class="line"></div>
+      <div class="subtitle">Finding beauty and clarity in less</div>
+    </div>
+    <div class="image">
+        <img src="Screenshot 2025-09-29 184803.png" length="10%" width="100%">
+    </div>
+    <div class="author">Kaviya</div>
+  </div>
+</body>
+</html>
+```
 
 ## OUTPUT:
+<img width="1903" height="905" alt="frontpage png" src="https://github.com/user-attachments/assets/1b9b049d-59ab-41cd-aebd-e5c24e80dfe8" />
 
 
 ## RESULT:
